@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__hero {
+  padding: 32px 0 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.home__bio {
+  max-width: 62ch;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.home__row {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.home__experience {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.home__tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home__projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}

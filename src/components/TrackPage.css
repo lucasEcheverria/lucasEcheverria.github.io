@@ -1,0 +1,51 @@
+.track__title {
+  font-size: clamp(32px, 6vw, 44px);
+  font-weight: 800;
+  color: var(--accent);
+  padding: 32px 0 8px;
+}
+
+.track__row {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.track__featured {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.track__featured-item {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 10px 16px;
+}
+
+.track__group {
+  margin-bottom: 20px;
+}
+
+.track__group:last-child {
+  margin-bottom: 0;
+}
+
+.track__group-label {
+  font-size: 13px;
+  color: var(--text-muted-2);
+  margin-bottom: 10px;
+}
+
+.track__tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.track__projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}

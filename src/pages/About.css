@@ -1,0 +1,113 @@
+.about__row {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.about__row--first {
+  padding-top: 32px;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about__title {
+  font-size: clamp(32px, 6vw, 44px);
+  font-weight: 800;
+}
+
+.about__bio {
+  max-width: 62ch;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.about__skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.about__skill {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about__skill-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.about__skill-rationale {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.about__languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.about__languages li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.about__language-name {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.about__language-level {
+  color: var(--text-muted-2);
+  font-size: 12px;
+}
+
+.about__studies {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.about__studies li::before {
+  content: '› ';
+  color: var(--text-muted-2);
+}
+
+.about__experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__job-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.about__job-role {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.about__job-period {
+  font-size: 13px;
+  color: var(--text-muted-2);
+}
+
+.about__job-description {
+  font-size: 14px;
+  color: var(--text-muted);
+  max-width: 62ch;
+}

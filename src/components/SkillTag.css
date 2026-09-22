@@ -1,0 +1,8 @@
+.skill-tag {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--text-muted);
+  border: 1px solid var(--border-strong);
+  padding: 6px 12px;
+  white-space: nowrap;
+}
